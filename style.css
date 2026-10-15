@@ -15,7 +15,7 @@
     justify-content: space-between;
 
     color:rgb(245, 245, 255);
-    background-color: rgb(4, 17, 59);
+    background-color: rgb(1, 8, 31);
 
     padding: 15px 30px;
     z-index: 1000;
@@ -77,11 +77,11 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/starlight.jpg');
+    background-image: url('images/nebula.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 1;
     z-index: -1;
 }
 /*other styling*/
