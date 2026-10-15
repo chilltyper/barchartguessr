@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-game="companies">
+    <div class="topheading">
+        <a href="index.html"><h1>Bar Chart Guessr</h1></a>
+        <nav>
+            <a href="memes.html">Memes</a>
+            <a href="videogames.html">Video Games</a>
+            <a href="websites.html">Websites</a>
+            <a href="companies.html">Companies</a>
+        </nav>
+    </div>
+    <div class="hpparent">
+        <header class="hptitle"><h1 class="hptitle"><i>company guessr</i></h1></header>
+        <br>
+        <br>
+        <h6>Welcome to Company Guessr (1900-2026)</h6>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="game-layout">
+            <section class="image-side">
+                <button id="newgame" type="button">Generate New Game!</button>
+                <div class="imagecontainer">
+                    <img id="gameimage" src="images/enterplayers.png" alt="Bar chart race to guess">
+                </div>
+            </section>
+            <aside class="game-side">
+                <div class="ui">
+                    <label id="createlabels" for="playernames">Enter player names separated by commas:</label>
+                    <input type="text" id="playernames" placeholder="Player 1, Player 2, Player 3, Player 4">
+                    <button id="createplayers" type="button">Play!</button>
+                </div>
+                <div id="playergames"></div>
+                <p id="answerreveal" class="answer-reveal"></p>
+                <p id="gamestatus" class="game-status"></p>
+            </aside>
+
+        </div>
+        <br>
+        <div id="playergames"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
